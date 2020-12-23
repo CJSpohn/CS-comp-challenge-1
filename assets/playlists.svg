@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		viewBox="0 0 200 200" xml:space="preserve">
+<g>
+  <circle cx="30" cy="60" r="15" fill="#FFCB05"></circle>
+  <circle cx="30" cy="100" r="15" fill="#FFCB05"></circle>
+  <circle cx="30" cy="140" r="15" fill="#FFCB05"></circle>
+  <rect x="60" y="48" width="100" height="20" fill="#FFCB05" stroke-linecap="round"></rect>
+  <rect x="60" y="90" width="100" height="20" fill="#FFCB05"></rect>
+  <rect x="60" y="130" width="100" height="20" fill="#FFCB05"></rect>
+</g>
+
+</svg>
