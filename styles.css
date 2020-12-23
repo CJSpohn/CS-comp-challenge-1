@@ -29,10 +29,9 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 12vh;
+  height: 16vh;
   background-color: #3C5AA6;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .header__selections {
@@ -40,16 +39,23 @@ h2 {
   font-size: 0.7rem;
   align-items: flex-end;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .header__profile {
-  margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 20vw;
+  width: 15vw;
+  margin-right: 10px;
+}
+
+.header__profile-name {
+  color: lightgrey;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .header__user-select {
@@ -59,33 +65,59 @@ h2 {
 }
 
 .header__logo {
-  width: 100%;
-  margin-bottom: 10px;
+  width: 200px;
+  margin-bottom: 20px;
 }
 
 .header__profile-img {
   height: 25px;
   width: 25px;
+  margin-right: 10px;
 }
 
-.header__profile-name {
-  margin: 0px;
-  font-size: 1rem;
+.header__dropdown-img {
+  margin-top: 3px;
+  width: 25px;
+  height: 25px;
 }
 
 .header__btn {
-  margin: 14px 5px 14px 5px;
-  height: 20px;
-  width: 20px;
+  margin: 14px 5px 14px 25px;
+  height: 30px;
+  width: 30px;
+}
+
+.header__btn--shares {
+  background-image: url(/assets/share.svg);
+  background-repeat: no-repeat;
+  background-color: #3C5AA6;
+  border: none;
+}
+
+.header__btn--playlists {
+  background-image: url(/assets/playlists.svg);
+  background-repeat: no-repeat;
+  background-color: #3C5AA6;
+  border: none;
+}
+
+.header__btn--videos {
+  background-image: url(/assets/videos.svg);
+  background-repeat: no-repeat;
+  background-color: #3C5AA6;
+  border: none;
 }
 
 .header__btn-text {
-  margin: 14px 5px 14px 5px;
+  margin: 14px 5px 18px 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #AAAAAA;
+  opacity: 0.8;
 }
 
-.header__logo {
-  width: 100px;
-  background-color: #3C5AA6;
+.header__btn-text--selected {
+  color: white;
 }
 
 /*
@@ -256,6 +288,11 @@ h2 {
 }
 
 @media screen and (max-width:1000px) {
+  .header__profile {
+    margin-right: 20px;
+    width: 20vw;
+  }
+
   .card {
     width: 30vw;
   }

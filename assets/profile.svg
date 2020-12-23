@@ -1,6 +1,13 @@
-<svg viewbox="0,0,200,200" id="profile" height="50px" width="50px" xmlns="http://www.w3.org/2000/svg">
-  <ellipse cx="100" cy="70" rx="40" ry="50" fill="none" stroke="white" stroke-width="4">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		viewBox="0 0 200 200" xml:space="preserve">
+<g>
+  <ellipse cx="100" cy="70" rx="40" ry="50" fill="none" stroke="grey" stroke-width="14">
   </ellipse>
-  <path d="M 10,190 L 190, 190 C 180,150, 160,150 140,120 C 125,140, 75,140, 60,120 C 40,150 20,150 10,190" stroke="black" stroke-width="4" fill="none"></path>
+  <path d="M 10,190 L 190, 190 C 180,150, 160,150 140,120
+  C 125,140, 75,140, 60,120 C 40,150 20,150 10,190"
+  stroke="grey" stroke-width="14" fill="none"></path>
+</g>
 
 </svg>
