@@ -1,1 +1,293 @@
+/* colors
+Logo Yellow: #FFCB05
+Light Blue: #2A75BB
+Yellow Shadow: #C7A008
+Dark Blue: #3C5AA6
+ */
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+/*
+--------------HEADER--------------
+ */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 12vh;
+  background-color: #3C5AA6;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header__selections {
+  display: flex;
+  font-size: 0.7rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header__profile {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 20vw;
+}
+
+.header__user-select {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.header__profile-img {
+  height: 25px;
+  width: 25px;
+}
+
+.header__profile-name {
+  margin: 0px;
+  font-size: 1rem;
+}
+
+.header__btn {
+  margin: 14px 5px 14px 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.header__btn-text {
+  margin: 14px 5px 14px 5px;
+}
+
+.header__logo {
+  width: 100px;
+  background-color: #3C5AA6;
+}
+
+/*
+-------------MAIN DISPLAY-------------
+*/
+
+
+.main-display {
+  background-color: #C7A008;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-display__text {
+  font-size: 2rem;
+  padding: 40px 0 30px 10px;
+  font-weight: 400;
+}
+
+.main-display__grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  place-items: center;
+  grid-template-areas:
+    "card1 card2 card3 card4"
+    "card5, card6, card7, card8";
+  grid-gap: 1rem;
+}
+
+/*
+-------------CARDS-------------
+*/
+
+.card__views--text,
+.card__views--num {
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  width: 95%;
+  box-shadow: 0 0 3px 1px black;
+}
+
+.card__image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+  width: 100%;
+  background-color: #2A75BB;
+}
+
+.card__share-button {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  background-image: url(/assets/arrow.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card__views {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20%;
+  margin: 5px;
+}
+
+.card__text {
+  padding: 15px;
+}
+
+.card__subtext {
+  font-size: 0.7rem;
+  margin: 0px;
+  opacity: 0.6;
+}
+
+.card__playlist-text {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.card__playlist--title {
+  margin: 0;
+  opacity: 0.7;
+}
+
+.card__link {
+  padding: 5px 5px;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  background-color: #e8ece7;
+  height: 40px;
+}
+
+.card__attachments {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 0;
+}
+
+.card__attachments-number {
+  margin: 0;
+  font-size: 2rem;
+  color: #FFCB05;
+}
+
+.card__image--pikachu {
+  background-image: url(/assets/Pikachu.png);
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+.card__image--ash {
+  background-image: url(/assets/Ash.png);
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+}
+
+.card__image--charizard {
+  background-image: url(/assets/Charizard.png);
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+.card__image--cool-pikachu {
+  background-image: url(/assets/Cool-pikachu.png);
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+.card__image--eevee {
+  background-image: url(/assets/Eevee.png);
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+.card__image--charmander {
+  background-image: url(/assets/Charmander.png);
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+}
+
+.card__image--legendary1 {
+  background-image: url(/assets/Legendary1.png);
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+.card__image--articuno {
+  background-image: url(/assets/Articuno.png);
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #C7A008;
+}
+
+@media screen and (max-width:800px) {
+  .card {
+    width: 90%;
+  }
+
+  .main-display__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    place-items: center;
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8"
+  }
+}
+
+@media screen and (max-width:550px) {
+  .card {
+    width: 90%;
+  }
+
+  .main-display__grid {
+    grid-template-columns: 1.5fr;
+    grid-template-rows: 2fr;
+    place-items: center;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8"
+  }
+}
