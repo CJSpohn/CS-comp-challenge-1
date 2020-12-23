@@ -128,7 +128,7 @@ h2 {
 
 .card {
   background-color: white;
-  width: 95%;
+  width: 22vw;
   box-shadow: 0 0 3px 1px black;
 }
 
@@ -187,6 +187,7 @@ h2 {
   opacity: 0.7;
   background-color: #e8ece7;
   height: 40px;
+  overflow-wrap: break-word;
 }
 
 .card__attachments {
@@ -254,9 +255,25 @@ h2 {
   background-color: #C7A008;
 }
 
+@media screen and (max-width:1000px) {
+  .card {
+    width: 30vw;
+  }
+
+  .main-display__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    place-items: center;
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card5 card6"
+      "card7 card8"
+  }
+}
+
 @media screen and (max-width:800px) {
   .card {
-    width: 90%;
+    width: 45vw;
   }
 
   .main-display__grid {
@@ -273,7 +290,7 @@ h2 {
 
 @media screen and (max-width:550px) {
   .card {
-    width: 90%;
+    width: 90vw;
   }
 
   .main-display__grid {
