@@ -5,6 +5,8 @@ The purpose of this exercise was to practice matching a given comp while utilizi
 
 The original project spec can be found [here](https://frontend.turing.io/projects/module-1/m1-static-comp).
 
+Here is the [live site](https://cjspohn.github.io/CS-comp-challenge-1/).
+
 While we were requested to stay true to the layout of the original comp, any decision regarding assets, color scheme, and content was up to us. I decided to spice things up from the original comp and give a shout out to my childhood by using Pokemon!
 
 The colors were taken from this [Pokemon Logo Color Palette](https://www.designpieces.com/palette/pokemon-logo-color-palette-hex-and-rgb/) and my pokemon images were taken from this page on [freepngimg.com](https://freepngimg.com/games/pokemon). 
